@@ -1,4 +1,4 @@
-# Ask the user for his name, and then print a greeting message
+# Ask the user for his name, and then print a greeting message test
 print("Enter your name:")
 x = input()
 print("Hello, " + x)
