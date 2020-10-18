@@ -1,4 +1,4 @@
-# Ask the user for his name, and then print a greeting message test
+# Ask the user for his name, and then print a greeting message
 print("Enter your name:")
 x = input()
 print("Hello, " + x)
@@ -178,3 +178,15 @@ print(split_value)
 words=["alpha","omega","up","down","over","under","purple","red","blue","green"]
 sortedwords = sorted(words, key=len)
 print ("The longest word in the list is: " + sortedwords[-1])
+
+# sets ************************************
+#Create a set called my_fav_numbers with your favorites numbers.
+my_fav_numbers  = {10,20,30,40,50}
+my_fav_numbers.add(60)
+my_fav_numbers.add(70)
+my_fav_numbers.pop()
+friend_fav_numbers = {11,22,33,44}
+our_fav_numbers = my_fav_numbers.union(friend_fav_numbers)
+print(my_fav_numbers)
+print(our_fav_numbers)
+
